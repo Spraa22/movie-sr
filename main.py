@@ -12,7 +12,7 @@ fourk = importlib.import_module("4khdub")
 
 API_ID = 25492855
 API_HASH = "61876db014de51a4ace6b169608be4f1"
-BOT_TOKEN = "8455076923:AAGR7WcmzrylOx3AXSNDDDys7Iok8RNFxtE"
+BOT_TOKEN = "8602373283:AAHbRFX1WcIMxviZurMZfPHZKTifkf7ECGY"
 
 # Master Bot Client
 app = Client("master_router_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
