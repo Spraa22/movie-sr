@@ -19,4 +19,4 @@ RUN pip install --no-cache-dir --upgrade pip && \
 COPY . .
 
 # Bot run karne ki command (agar aapki file ka naam bot.py hai toh yahan bot.py rakhein)
-CMD ["python", "main.py"]
+CMD gunicorn app:app & python3 main.py
